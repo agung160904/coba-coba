@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.halaman {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease-in-out;
+}
+
+.hidden {
+    transform: translateX(100%);
+    visibility: hidden;
+}
+
+#halaman1 {
+    background-color: lightcoral;
+}
+
+#halaman2 {
+    background-color: lightgreen;
+}
